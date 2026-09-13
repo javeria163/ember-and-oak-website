@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Ember & Oak</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Ember <span>&</span> Oak</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="siteNav">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <p class="hero-kicker">Our Story</p>
+        <h1>Twelve years, one flame that never went out.</h1>
+      </div>
+    </section>
+
+    <section class="story-section">
+      <div class="container story-grid">
+        <div class="story-image">
+          <img src="images/story.jpg" alt="Interior of Ember & Oak dining room with wooden tables">
+        </div>
+        <div class="story-text">
+          <h2>How it started</h2>
+          <p>Ember & Oak opened in a converted rail warehouse with a single wood-fired hearth and twelve seats. There was no gas line in the building, so the first menu was built entirely around what a live flame could do — and that limitation became the whole identity of the restaurant.</p>
+          <p>Today we still cook everything the same way: over oak, with patience, one dish at a time. The dining room grew, but the fire didn't change.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="chef-section">
+      <div class="container chef-grid">
+        <div class="chef-image">
+          <img src="images/chef.jpg" alt="Head chef working in the Ember & Oak kitchen">
+        </div>
+        <article class="chef-text">
+          <h2>Meet the Chef</h2>
+          <h3>Marco Elner, Head Chef</h3>
+          <p>Marco trained in wood-fire kitchens across three countries before settling here. He treats the fire itself as an ingredient — adjusting wood type and flame height the way another chef might adjust a spice.</p>
+          <blockquote>"You can't rush a fire, and you can't fake one either. Every plate tells you if you tried."</blockquote>
+        </article>
+      </div>
+    </section>
+
+    <section class="values-section">
+      <div class="container">
+        <h2>What we hold onto</h2>
+        <table class="values-table">
+          <thead>
+            <tr>
+              <th>Principle</th>
+              <th>What it means at our table</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fire only</td>
+              <td>No gas, no microwaves, no shortcuts — every hot dish meets open flame.</td>
+            </tr>
+            <tr>
+              <td>Local first</td>
+              <td>Ingredients sourced from farms within 50 miles whenever the season allows.</td>
+            </tr>
+            <tr>
+              <td>Seasonal honesty</td>
+              <td>If it's not in season, it's not on the menu — no matter how popular it was last time.</td>
+            </tr>
+            <tr>
+              <td>Small batches</td>
+              <td>We'd rather run out of a dish than serve it below standard.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Ember & Oak</h4>
+        <p>A wood-fired kitchen built around fire, patience, and honest ingredients.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>24 Kiln Street<br>Downtown District</p>
+        <p>+1 (555) 019-2847</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> Ember & Oak. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
