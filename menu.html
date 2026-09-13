@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Ember & Oak</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Ember <span>&</span> Oak</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="siteNav">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <p class="hero-kicker">Autumn Menu</p>
+        <h1>What's over the fire tonight.</h1>
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <div class="container">
+
+        <div class="accordion-item">
+          <button class="accordion-toggle" aria-expanded="true">
+            Starters
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel open">
+            <table>
+              <thead>
+                <tr><th>Dish</th><th>Description</th><th>Price</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Charred Corn</td>
+                  <td>Sweet corn, smoked butter, lime, chili crumb</td>
+                  <td>$9</td>
+                </tr>
+                <tr>
+                  <td>Oak-Smoked Beets</td>
+                  <td>Whipped goat cheese, hazelnut, honey</td>
+                  <td>$11</td>
+                </tr>
+                <tr>
+                  <td>Flame Flatbread</td>
+                  <td>Charred tomato, burrata, basil oil</td>
+                  <td>$13</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-toggle" aria-expanded="false">
+            Mains
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <table>
+              <thead>
+                <tr><th>Dish</th><th>Description</th><th>Price</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Short Rib</td>
+                  <td>36-hour fire, red wine reduction, root vegetables</td>
+                  <td>$32</td>
+                </tr>
+                <tr>
+                  <td>Whole Grilled Trout</td>
+                  <td>Herb butter, charred lemon, fennel</td>
+                  <td>$27</td>
+                </tr>
+                <tr>
+                  <td>Oak Roasted Half Chicken</td>
+                  <td>Smoked jus, roasted garlic, seasonal greens</td>
+                  <td>$24</td>
+                </tr>
+                <tr>
+                  <td>Grilled Cauliflower Steak</td>
+                  <td>Romesco, pine nuts, charred scallion (vegan)</td>
+                  <td>$19</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-toggle" aria-expanded="false">
+            Desserts
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <table>
+              <thead>
+                <tr><th>Dish</th><th>Description</th><th>Price</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Fire-Toasted S'mores Tart</td>
+                  <td>Dark chocolate, torched marshmallow, graham crust</td>
+                  <td>$10</td>
+                </tr>
+                <tr>
+                  <td>Grilled Peach</td>
+                  <td>Brown butter crumble, vanilla bean ice cream</td>
+                  <td>$9</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-toggle" aria-expanded="false">
+            Drinks
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <table>
+              <thead>
+                <tr><th>Drink</th><th>Description</th><th>Price</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Smoked Old Fashioned</td>
+                  <td>Bourbon, oak smoke, orange bitters</td>
+                  <td>$14</td>
+                </tr>
+                <tr>
+                  <td>House Red Blend</td>
+                  <td>Regional vineyard, glass or bottle</td>
+                  <td>$12 / $44</td>
+                </tr>
+                <tr>
+                  <td>Charred Rosemary Lemonade</td>
+                  <td>Non-alcoholic, fresh lemon, torched rosemary</td>
+                  <td>$6</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Ember & Oak</h4>
+        <p>A wood-fired kitchen built around fire, patience, and honest ingredients.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>24 Kiln Street<br>Downtown District</p>
+        <p>+1 (555) 019-2847</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; <span id="year"></span> Ember & Oak. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
